@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/050210f851.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="vendors/css/fluid.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
@@ -15,7 +16,7 @@
 
 <body>
     <header>
-        <div class="header-box">
+        <div class="header-box" >
             <div class="header1">
                 <h2>Mindspark</h2>
             </div>
@@ -25,7 +26,8 @@
 
     <section>
         <div class="row">
-            <div class="col span_1_of_2 about-box">
+            <div class="col span_1_of_2 about-box" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom">
                 <h2 class="obj-heading">Event Objective</h2>
                 <p class="obj-para">The aim of Genius Junior is to provide insight for school students into the
                     world of engineering. It will require the full extent of their aptitude, skill
@@ -34,13 +36,14 @@
                     in 20+ different cities.
                 </p>
             </div>
-            <div class="col span_1_of_2 about box">
+            <div class="col span_1_of_2 about box" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom">
                 <img src="resources/css/img/Img1.PNG" alt="illustration" class="img1">
             </div>
         </div>
     </section>
     
-    <section class="description-section">
+    <section class="description-section" data-aos="fade-right" >
         <div class="row">
             <h2 class="eventd-heading">Event description</h2>
         </div>
@@ -68,7 +71,7 @@
         </div>
     </section>
 
-    <section class="structure-section">
+    <section class="structure-section" data-aos="fade-up"data-aos-anchor-placement="center-bottom">
         <div class="row">
             <h2 class="structure-heading">Event structure</h2>
             <div class="col span_1_of_2">
@@ -129,7 +132,7 @@
         </div>
     </section>
 
-    <section class="rules section">
+    <section class="rules section" data-aos="fade-right">
         <div class="row">
                 <h2 class="rules-heading">Rules</h2>
                 <p class="rules-para" >
@@ -155,10 +158,10 @@
 
     <section class="picture">
         <div class="row">
-            <div class="col span_1_of_2 about-box">
+            <div class="col span_1_of_2 about-box" data-aos="fade-up" >
                 <img src="resources/css/img/Img4.PNG" alt="illustration" class="img4">
             </div>
-            <div class="col span_1_of_2 about-box">
+            <div class="col span_1_of_2 about-box" data-aos="fade-up" >
                 <img src="resources/css/img/Img5.PNG" alt="illustration" class="img5">
             </div>
 
@@ -167,7 +170,7 @@
     </section>
     
 
-    <section class="fee-section">
+    <section class="fee-section" data-aos="fade-right">
         <div class="row">
             <h2 class="team-heading">Team and Fee Structure</h2>
         </div>
@@ -176,7 +179,7 @@
         </div>
     </section>
 
-    <section>
+    <section data-aos="fade-up">
         <div class="row">
             <h2 class="Faq-heading">FAQs</h2>
         </div>
@@ -220,10 +223,12 @@
 
     <footer>
         <div class="row">
-            <div class="col span_1_of_2 ">
+            <div>
                 <p class="footer-para">Contact Us:</p>
             </div>
-            <div class="col span_1_of_2 ">
+        </div>
+        <div class="row">
+            <div>
                 <ul class="links">
                     <li><a href='#'><i class="fab fa-facebook-square"></i></a></li>
                     <li><a href='#'><i class="fab fa-twitter-square"></i></a></li>
@@ -232,9 +237,13 @@
                 </ul>
             </div>
         </div>
+        
 
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

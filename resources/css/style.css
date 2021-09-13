@@ -282,24 +282,27 @@ footer{
 
 .footer-para{
     font-size: 130%;
-    color: #fff
+    color: #fff;
+    margin-top:4%;
+    text-align:right;
+    margin-right:30%
 }
 
 .links li{
     list-style:none;
     display:inline-block;
-    margin-left:20px
+    margin-left:2%;
 }
 
 .links li a:link,
 .links li a:visited{
     color:#fff;
     text-decoration: none;
-    font-size:160%
+    font-size:200%
 }
 
 .links{
-    float:right;
+    float:center;
 }
 
 .fa-facebook-square,
