@@ -59,6 +59,14 @@
     }
 }
 
+@media only screen and (max-width:638px){
+    article{
+        width: 30%;
+        min-width: 8em;
+        max-width: 30%;
+    }
+}
+
 @media only screen and (max-width:546px){
     html,
     body{
@@ -146,13 +154,21 @@
     }
 }
 
+@media only screen and (max-width:420px){
+
+    str-para{
+        font-size:1em
+    }
+
+}
+
 @media only screen and (max-width:284px){
     .structure-box{
         background-color:#f4f4f4 ;
         height: 200px; 
     }
 
-    
+   
 
 }
 

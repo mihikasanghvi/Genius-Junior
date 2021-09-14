@@ -29,7 +29,7 @@ header{
 
 .main-nav{
     list-style: none;
-    background-color: black;
+    background-color:rgba(0,0,0,.5);
 }
 
 
@@ -353,7 +353,260 @@ footer{
     color: #0a66c2;
 }
 
+main {
+    width: 100%;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-flow: row;
+    align-content: space-around;
+    justify-content: center;
+    margin: 3em auto 5em auto;
+}
 
+article {
+    position: relative;
+    background-color: white;
+    border-radius: 0.25em;
+    width: 25%;
+    min-width: 8em;
+    max-width: 23%;
+    padding: 2em;
+    padding-bottom: 1.2em;
+    margin: 1em;
+    box-shadow: 0em 0em 1.5em rgba(0,0,0,.1);
+    overflow: hidden;
+    transition: ease;
+    transition-duration: .6s;
+}
+
+article:hover {
+    cursor: pointer;
+}
+
+/* TARJETA 1 */
+
+#t1:hover {
+    box-shadow: 0 .2em .2em #afafaf;
+    transform: scale(.97);
+    transition: ease;
+    transition-duration: .4s;
+}
+
+#t1:hover section:nth-child(2) svg {
+    transform: translateX(-7em) rotate(240deg);
+    transition: ease;
+    transition-duration: .4s;
+}
+
+#t1:hover section:nth-child(2) h1 {
+    transform: scale(0.5);
+    opacity: 0;
+    transition: ease;
+    transition-duration: .3s;
+}
+
+#t1:hover section:nth-child(2) p {
+    transform: translate3d(3em, 0em, 20em);
+    opacity: 0;
+    transition: ease;
+    transition-duration: .3s;
+}
+
+#t1:hover section:first-child {
+    opacity: 1;
+    top: 0;
+    transition: ease;
+    transition-duration: .4s;
+    transition-delay: .2s;
+}
+
+/* TARJETA 2 */
+
+#t2:hover {
+    transform: rotate(360deg) scale(.97);
+    transition: ease;
+    transition-duration: .6s;
+    transition-delay: .1s;
+    box-shadow: 0 .2em .2em #afafaf;
+}
+
+#t2 section:first-child {
+    top: 0;
+    opacity: 0;
+}
+
+#t2:hover section:first-child {
+    opacity: 1;
+    top: 0;
+    transition-delay: .2s;
+}
+
+#t2:hover section:first-child h1 {
+    transition: ease;
+    transform: translate(0em);
+    transition-duration: .5s;
+    transition-delay: .5s;
+}
+
+#t2 section:first-child h1 {
+    transition: ease;
+    transform: translate(5em);
+    transition-duration: .5s;
+}
+
+#t2:hover section:first-child p {
+    transition: ease;
+    transform: translate(0em);
+    transition-duration: .5s;
+    transition-delay: .5s;
+}
+
+#t2 section:first-child p {
+    transition: ease;
+    transform: translate(-25em);
+    transition-duration: .5s;
+}
+
+#t2:hover section:nth-child(2) {
+    opacity: 0;
+    transition: ease;
+    transition-duration: .2s;
+    transition-delay: .1s;
+}
+
+/* TARJETA 3 */
+
+#t3:hover {
+    box-shadow: 0 .2em .2em #afafaf;
+    transform: scale(.97);
+    transition: ease;
+    transition-duration: .4s;
+}
+
+#t3:hover section:nth-child(2) svg {
+    transform: scaleY(.1) translate(16em);
+    transition: ease;
+    transition-duration: .2s;
+    transition-delay: .1s;
+}
+
+#t3:hover section:nth-child(2) h1 {
+    transform: scaleY(.1) translate(16em);
+    transition: ease;
+    transition-duration: .2s;
+    transition-delay: .2s;
+}
+
+#t3:hover section:nth-child(2) p {
+    transform: scaleY(.1) translate(16em);
+    transition: ease;
+    transition-duration: .2s;
+    transition-delay: .3s;
+}
+
+#t3:hover section:nth-child(2) p.calculate {
+    transform: scaleY(.1) translate(16em);
+    transition: ease;
+    transition-duration: .2s;
+    transition-delay: .4s;
+}
+
+#t3 section:nth-child(2) svg, 
+#t3 section:nth-child(2) h1, 
+#t3 section:nth-child(2) p, 
+#t3 section:nth-child(2) p.calculate {
+    transition: ease;
+    transition-duration: .4s;
+    transition-delay: .2s;
+}
+
+#t3 section:first-child {
+    border-radius: 20em;
+    top: 0;
+    left: 100%;
+    scale: .2;
+}
+
+#t3:hover section:first-child {
+    opacity: 1;
+    top: 0;
+    transition-delay: .6s;
+    border-radius: 0.25em;
+    left: 0;
+}
+
+
+
+
+
+section {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    justify-content: space-between;
+}
+
+section:first-child {
+    position: absolute;
+    top: 100%;
+    margin: 0em;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 0.25em;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    transition-duration: .4s;
+}
+
+section:first-child p {
+    margin: 0em 2em;
+    text-align: center;
+}
+
+section:first-child h1 {
+    margin: 2rem 0;
+}
+
+#magenta {
+    background-color: #df95df;
+}
+
+#cyan {
+    background-color: rgb(141, 233, 233);
+}
+
+#yellow {
+    background-color: rgb(255, 230, 0);
+}
+
+section:first-child h1 {
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sub {
+    font-family: "Barlow";
+    font-weight: normal;
+    font-size: 1.5em;
+    margin-top: 2em;
+    transition: ease;
+    transition-duration: .3s;
+    text-align: center;
+    color: #4169E1;
+}
+
+.str-para{
+    margin-bottom: 3em;
+    margin-top: 0em;
+}
+
+a {
+    text-decoration: none;
+}
 
 
 
