@@ -27,6 +27,31 @@ header{
     position: relative;
 }
 
+.main-nav{
+    list-style: none;
+    background-color: black;
+}
+
+
+.main-nav li{
+    display:inline-block;
+    margin-left:2%;
+    text-transform: uppercase;
+    margin-top:2%;
+    margin-bottom:1%;
+    transition: border bottom 0.5s;
+}
+
+.main-nav li a{
+    text-decoration:none;
+    color:#fff;
+}
+
+.main-nav li:hover,
+.main-nav li:active{
+    border-bottom:2px solid #4169E1;
+}
+
 .header-box{
     position: absolute;
     top:50%;
