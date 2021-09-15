@@ -172,6 +172,31 @@
 
 }
 
+@media only screen and (max-width:444px){
+
+    str-para{
+        font-size:1em
+    }
+}
+
+@media only screen and (max-width:420px){
+    main{
+        flex-wrap: wrap;
+    }
+    
+    .str-para{
+        font-size:0.75em
+    }
+    
+}
+
+
+@media only screen and (max-width:296px){
+    .str-para{
+        font-size:0.6em
+    }
+}
+
 
 
 
