@@ -1,3 +1,7 @@
+html,body{
+    overflow-x:hidden
+}
+
 *{
     margin:0;
     padding: 0;
@@ -29,7 +33,7 @@ header{
 
 .main-nav{
     list-style: none;
-    background-color:rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.5) ;
 }
 
 
@@ -51,6 +55,7 @@ header{
 .main-nav li:active{
     border-bottom:2px solid #4169E1;
 }
+
 
 .header-box{
     position: absolute;
@@ -159,49 +164,6 @@ h1{
 .structure-section{
     margin-bottom: 20px;
 }
-
-.structure-box{
-    background-color:#f4f4f4 ;
-    height: 250px; 
-}
-
-.structure-box2{
-    margin-top:1%;
-    background-color:#f4f4f4;
-    margin-left:24%;
-    margin-right:24%;
-    
-}
-
-.structure-subheading2{
-    text-align:center;
-    font-size:150%;
-    margin-bottom:30px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #4169E1 ;
-}
-
-.structure-para2{
-    margin-left: 4%;
-    margin-right: 4%;
-    font-size:120%;
-}
-
-
-.structure-subheading{
-    font-size: 150%;
-    text-align: center;
-    margin-bottom:30px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #4169E1 ;
-}
-
-.structure-para{
-    font-size: 120%;
-    padding-left: 20px;
-    padding-right:10px
-}
-
 .rules-heading{
     font-size: 300%;
     color:black; 
