@@ -305,9 +305,6 @@ article {
     position: relative;
     background-color: white;
     border-radius: 0.25em;
-    width: 25%;
-    min-width: 8em;
-    max-width: 23%;
     padding: 2em;
     padding-bottom: 1.2em;
     margin: 1em;
@@ -472,10 +469,6 @@ article:hover {
     border-radius: 0.25em;
     left: 0;
 }
-
-
-
-
 
 section {
     height: 100%;

@@ -1,4 +1,4 @@
-@media only screen and (max-width:1187px){
+/*@media only screen and (max-width:1187px){
     h2{
         font-size: 340%;
     }
@@ -153,22 +153,22 @@
         color: #fff;
     }
 }
-
-@media only screen and (max-width:420px){
+*/
+/*@media only screen and (max-width:420px){
 
     str-para{
         font-size:1em
     }
 
 }
-
+/*
 @media only screen and (max-width:284px){
     .structure-box{
         background-color:#f4f4f4 ;
         height: 200px; 
     }
 
-   
+
 
 }
 
@@ -185,7 +185,7 @@
     }
     
     .str-para{
-        font-size:0.75em
+        font-size:0.65em
     }
     
 }
@@ -196,3 +196,4 @@
         font-size:0.6em
     }
 }
+*/
