@@ -31,7 +31,10 @@ header{
     position: relative;
 }
 
-
+.logo{
+    height: 20px;
+    margin-bottom: 9px;
+}
 
 .header-box{
     position: absolute;
@@ -56,7 +59,7 @@ h1{
     font-size: 300%;
     color:black; 
     margin-top:50px ;
-    margin-left:30px
+    text-align:center
 }
 
 .obj-heading:after{
@@ -65,12 +68,12 @@ h1{
     width:100px;
     background-color:#4169E1;
     content:" ";
-    margin:30px auto 0 100px;
+    margin:30px auto 0 auto;
 }
 
 .obj-para{
     margin-top:30px;
-    margin-bottom:20px;
+    margin-bottom:50px;
     font-size: 150%;
     margin-left:30px;
     margin-right:30px;
@@ -304,6 +307,7 @@ main {
 article {
     position: relative;
     background-color: white;
+    height: 450px;
     border-radius: 0.25em;
     padding: 2em;
     padding-bottom: 1.2em;
@@ -318,8 +322,8 @@ article:hover {
     cursor: pointer;
 }
 
-/* TARJETA 1 */
 
+/* TARJETA 2 */
 #t1:hover {
     box-shadow: 0 .2em .2em #afafaf;
     transform: scale(.97);
@@ -328,85 +332,114 @@ article:hover {
 }
 
 #t1:hover section:nth-child(2) svg {
-    transform: translateX(-7em) rotate(240deg);
+    transform: scaleY(.1) translate(16em);
     transition: ease;
-    transition-duration: .4s;
+    transition-duration: .2s;
+    transition-delay: .1s;
 }
 
 #t1:hover section:nth-child(2) h1 {
-    transform: scale(0.5);
-    opacity: 0;
+    transform: scaleY(.1) translate(16em);
     transition: ease;
-    transition-duration: .3s;
+    transition-duration: .2s;
+    transition-delay: .2s;
 }
 
 #t1:hover section:nth-child(2) p {
-    transform: translate3d(3em, 0em, 20em);
-    opacity: 0;
+    transform: scaleY(.1) translate(16em);
     transition: ease;
-    transition-duration: .3s;
+    transition-duration: .2s;
+    transition-delay: .3s;
+}
+
+#t1:hover section:nth-child(2) p.calculate {
+    transform: scaleY(.1) translate(16em);
+    transition: ease;
+    transition-duration: .2s;
+    transition-delay: .4s;
+}
+
+#t1 section:nth-child(2) svg, 
+#t1 section:nth-child(2) h1, 
+#t1 section:nth-child(2) p, 
+#t1 section:nth-child(2) p.calculate {
+    transition: ease;
+    transition-duration: .4s;
+    transition-delay: .2s;
+}
+
+#t1 section:first-child {
+    border-radius: 20em;
+    top: 0;
+    left: 100%;
+    scale: .2;
 }
 
 #t1:hover section:first-child {
     opacity: 1;
     top: 0;
+    transition-delay: .6s;
+    border-radius: 0.25em;
+    left: 0;
+}
+
+#t2:hover {
+    box-shadow: 0 .2em .2em #afafaf;
+    transform: scale(.97);
+    transition: ease;
+    transition-duration: .4s;
+}
+
+#t2:hover section:nth-child(2) svg {
+    transform: scaleY(.1) translate(16em);
+    transition: ease;
+    transition-duration: .2s;
+    transition-delay: .1s;
+}
+
+#t2:hover section:nth-child(2) h1 {
+    transform: scaleY(.1) translate(16em);
+    transition: ease;
+    transition-duration: .2s;
+    transition-delay: .2s;
+}
+
+#t2:hover section:nth-child(2) p {
+    transform: scaleY(.1) translate(16em);
+    transition: ease;
+    transition-duration: .2s;
+    transition-delay: .3s;
+}
+
+#t2:hover section:nth-child(2) p.calculate {
+    transform: scaleY(.1) translate(16em);
+    transition: ease;
+    transition-duration: .2s;
+    transition-delay: .4s;
+}
+
+#t2 section:nth-child(2) svg, 
+#t2 section:nth-child(2) h1, 
+#t2 section:nth-child(2) p, 
+#t2 section:nth-child(2) p.calculate {
     transition: ease;
     transition-duration: .4s;
     transition-delay: .2s;
 }
 
-/* TARJETA 2 */
-
-#t2:hover {
-    transform: rotate(360deg) scale(.97);
-    transition: ease;
-    transition-duration: .6s;
-    transition-delay: .1s;
-    box-shadow: 0 .2em .2em #afafaf;
-}
-
 #t2 section:first-child {
+    border-radius: 20em;
     top: 0;
-    opacity: 0;
+    left: 100%;
+    scale: .2;
 }
 
 #t2:hover section:first-child {
     opacity: 1;
     top: 0;
-    transition-delay: .2s;
-}
-
-#t2:hover section:first-child h1 {
-    transition: ease;
-    transform: translate(0em);
-    transition-duration: .5s;
-    transition-delay: .5s;
-}
-
-#t2 section:first-child h1 {
-    transition: ease;
-    transform: translate(5em);
-    transition-duration: .5s;
-}
-
-#t2:hover section:first-child p {
-    transition: ease;
-    transform: translate(0em);
-    transition-duration: .5s;
-    transition-delay: .5s;
-}
-
-#t2 section:first-child p {
-    transition: ease;
-    transform: translate(-25em);
-    transition-duration: .5s;
-}
-
-#t2:hover section:nth-child(2) {
-    opacity: 0;
-    transition: ease;
-    transition-duration: .2s;
-    transition-delay: .1s;
+    transition-delay: .6s;
+    border-radius: 0.25em;
+    left: 0;
 }
 
 /* TARJETA 3 */
@@ -539,6 +572,8 @@ section:first-child h1 {
 a {
     text-decoration: none;
 }
+
+
 
 
 
