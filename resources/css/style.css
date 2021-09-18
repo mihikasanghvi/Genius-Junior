@@ -24,18 +24,18 @@ body{
 }
 
 header{
-    /*background-image: linear-gradient(rgba(0,0,0,.5),rgb(0,0,0,.6)),url(img/Img4.PNG);
+    background-image: linear-gradient(rgba(0,0,0,.5),rgb(0,0,0,.6)),url(img/Img4.PNG);
     height: 100vh;
     background-size: cover;
     background-position: center;
-    position: relative;*/
-    border-radius: 0 0 50% 50%;
+    position: relative;
+    /*border-radius: 0 0 50% 50%;
         height:100vh;
         background-color:#8ec1da;
         background-image: url("img/background1.jpg");
         background-position: center bottom;
         animation: animatedBackground 30s linear infinite;
-        /* Safari and Chrome: */
+        /* Safari and Chrome: 
         -webkit-animation: animatedBackground 30s linear infinite;
       }
       @keyframes animatedBackground 
@@ -46,8 +46,9 @@ header{
       @-webkit-keyframes  animatedBackground 
       {
         from { background-position: 0 100%; }
-        to { background-position: 100% 100%; }
+        to { background-position: 100% 100%; }*/
 }
+
 
 .logo{
     height: 20px;
@@ -61,7 +62,27 @@ header{
     transform: translate(-50%,-50%);
     text-align: center;
 }
+.custom-shape-divider-bottom-1631941228 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
 
+.custom-shape-divider-bottom-1631941228 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 84px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1631941228 .shape-fill {
+    fill: #FFFFFF;
+}
 h2{
     font-size: 400%;
     color: #fff;
