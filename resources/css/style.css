@@ -65,7 +65,7 @@ header{
     background-color: rgb(141, 233, 233,.7);
     border-radius: 20px;
     padding-left: 1%;
-    padding-right:1%
+    padding-right:1%;
 }
 
 .custom-shape-divider-bottom-1631945558 {
@@ -621,7 +621,24 @@ a {
     height: 100%;
 }
 
+@media only screen and (max-width:768px){
+    .header-box{
+        top:57%;
+        font-size:440%
+    }
 
+    .col-md-4{
+        margin-bottom:20%
+    }
+    
+}
+
+@media only screen and (max-width:320px){
+    .header-box{
+        top:63%;
+        font-size: 400%;
+    }
+}
 
 
 
