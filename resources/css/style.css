@@ -62,7 +62,7 @@ header{
     transform: translate(-50%,-50%);
     text-align: center;
 }
-.custom-shape-divider-bottom-1631941228 {
+.custom-shape-divider-bottom-1631945558 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -72,15 +72,14 @@ header{
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1631941228 svg {
+.custom-shape-divider-bottom-1631945558 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 84px;
-    transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1631941228 .shape-fill {
+.custom-shape-divider-bottom-1631945558 .shape-fill {
     fill: #FFFFFF;
 }
 h2{
